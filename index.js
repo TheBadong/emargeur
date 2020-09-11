@@ -12,7 +12,6 @@ require('dotenv').config();
   await page.click('.usermenu .login a')
   //moodle choose login page
   await page.click('.loginpanel div:nth-child(1) a ');
-  // await page.waitForNavigation({waitUntil: 'load'})
   await page.screenshot({path: 'current.png'})
 
   //moodle login page
